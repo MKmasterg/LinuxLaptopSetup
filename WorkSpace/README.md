@@ -1,2 +1,2 @@
-# LinuxLaptopSetup
-A personal guide to setting up an efficient GNU/Linux for laptops!
+# Chosing the desired workspace!
+to be continued
