@@ -13,4 +13,4 @@ The configs are not a big deal, everything is in the `rc.lua` (better put your s
     #or 
     /usr/share 
    make a copy of them and put them in your home directory.)
-BTW make sure you install the [Compton](https://github.com/chjj/compton), because of the startup apps at the end of the config file.
+BTW make sure you install the [Compton](https://github.com/chjj/compton), because of the startup apps at the end of the config file, copy the compton configs into your home directory.
