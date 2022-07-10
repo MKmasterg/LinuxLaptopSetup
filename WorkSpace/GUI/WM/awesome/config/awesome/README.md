@@ -6,3 +6,4 @@
  - themes: this directory is used for local themes specially "the copy-cats' theme :| " so be sure to place "the theme" in this directory.
  - Compton: as I mentioned before, install Compton and put the config in your home directory: `~/.config/compton/compton.conf`
  - Rofi: for the dmenu (or run prompt to be specific) I used Rofi, make sure you install Rofi and also Its theme: `sudo svn checkout https://github.com/lr-tech/rofi-themes-collection/trunk/themes` put them in `~/.local/share/rofi/themes`
+ - awesome font : for font based icon you need to install awesome fonts : `sudo dnf install fontawesome-fonts #for fedora`
