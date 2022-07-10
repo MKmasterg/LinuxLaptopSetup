@@ -4,3 +4,4 @@
  - lain: also a dependency for [copy-cats' theme](https://github.com/lcpz/awesome-copycats) in order to install your theme properly this is needed. 
  - rc.lua: the main personal config for awesome wm. please note the base config is copy-cats' theme rc.lua template.
  - themes: this directory is used for local themes specially "the copy-cats' theme :| " so be sure to place "the theme" in this directory.
+ - Compton: as I mentioned before, install Compton and put the config in your home directory: `~/.config/compton/compton.conf`
