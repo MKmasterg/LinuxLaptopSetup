@@ -75,5 +75,5 @@ ZSH_THEME="YOUR_THEME'S_NAME"
  - [Firewalld](https://firewalld.org/) : It's probably already installed on your distro but just in case check if it's installed or not.
  - [TLP](https://linrunner.de/tlp/) : For laptop's battery life, I use default configs so maybe you should check the docs for more info.
  - Nvidia Driver (for Nvidia users) : I don't have much to say, you should follow your distro's instructions.\
- - Flatpak : Most apps that are not available in your package manager, you can find them in flatpak.
+ - Flatpak : Most apps that are not available in your package manager, you can find them in flatpak.\
  *I don't remember any other important packages for now, so if i'm missing something important I'll appreciate the commit*
