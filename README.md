@@ -44,7 +44,8 @@ The configs are not a big deal, everything is in the `rc.lua` (better put your s
  - Now install the [dependencies](https://github.com/lcpz/awesome-copycats#notes) that copy-cats theme needs.
  - Install [Compton](https://github.com/chjj/compton) using `sudo dnf install compton` and put the `compton.conf` into your home directory : `~/.config/compton/compton.conf`
  - Install Rofi, for the dmenu (or run prompt to be specific) I used Rofi, make sure you install Rofi and also Its theme: `sudo svn checkout https://github.com/lr-tech/rofi-themes-collection/trunk/themes` put them in `~/.local/share/rofi/themes`
- - Last but not least install awesome fonts, for font based icons : `sudo dnf install fontawesome-fonts`
+ - Last but not least install awesome fonts, for font based icons : `sudo dnf install fontawesome-fonts`\
+ **Please note that awesome wm does not support wayland (as far as I know) so It needs Xorg, therefore if you can't run your WM on Xorg then it's probably beacuase of the dynamic mode for your graphic cards (this config is mostly on lenovo laptops)**
 
 # Terminal shell
 Have you ever wondered why your terminal look and feel seems lame? then I think you should consider using [zsh](https://www.zsh.org/)!
