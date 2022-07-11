@@ -1,11 +1,12 @@
 # LinuxLaptopSetup
 
 A personal guide to setting up an efficient GNU/Linux for laptops!
-
-  
-
 The distro itself doesn't matter honestly (except the how-to s or the functiality) but I mainly use Fedora just so you know :)
 
+My actual awesome wm look!
+![My actual desktop look!](https://github.com/MKmasterg/LinuxLaptopSetup/blob/main/gallery/awesome_main.png)
+A demo screenshot from flat-remix-theme repository
+![A demo screenshot from flat-remix-theme repository](https://github.com/MKmasterg/LinuxLaptopSetup/blob/main/gallery/demo_flat_remix_theme_gnome.png)
 # GUI Look&Feel
 Basic Intro:
  - Desktop Environment (like [Gnome](https://www.gnome.org/) or [KDE](https://kde.org/)) : Most distros including fedora use DE, because they are more user-friendly and they come with a lot of utilities (like audio configs) that a mere Window Manager doesn't have.
