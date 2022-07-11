@@ -44,14 +44,6 @@ The configs are not a big deal, everything is in the `rc.lua` (better put your s
  - Install [Compton](https://github.com/chjj/compton) using `sudo dnf install compton` and put the `compton.conf` into your home directory : `~/.config/compton/compton.conf`
  - Install Rofi, for the dmenu (or run prompt to be specific) I used Rofi, make sure you install Rofi and also Its theme: `sudo svn checkout https://github.com/lr-tech/rofi-themes-collection/trunk/themes` put them in `~/.local/share/rofi/themes`
  - Last but not least install awesome fonts, for font based icons : `sudo dnf install fontawesome-fonts`
- 
- **Direcory awesome**
- -   freedesktop (dependency): is a dependency for copy-cats' theme, please check  [the instruction](https://github.com/lcpz/awesome-copycats)  and be sure to install it.
--   lain (dependency): also a dependency for  [copy-cats' theme](https://github.com/lcpz/awesome-copycats)  in order to install your theme properly this is needed.
--   rc.lua: the main personal config for awesome wm. please note the base config is copy-cats' theme rc.lua template.
--   themes: this directory is used for local themes specially "the copy-cats' theme :| " so be sure to place "the theme" in this directory.
--  Compton: as I mentioned before, install Compton and put the config in your home directory:  `~/.config/compton/compton.conf`
-- Rofi: for the dmenu (or run prompt to be specific) I used Rofi, make sure you install Rofi and also Its theme.
 
 # Terminal shell
 Have you ever wondered why your terminal look and feel seems lame? then I think you should consider using [zsh](https://www.zsh.org/)!
