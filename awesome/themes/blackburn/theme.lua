@@ -10,6 +10,10 @@ local lain  = require("lain")
 local awful = require("awful")
 local wibox = require("wibox")
 local dpi   = require("beautiful.xresources").apply_dpi
+--Adding widget locals
+local batteryarc_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
+local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
+local cpu_widget = require("awesome-wm-widgets.cpu-widget.cpu-widget")
 
 local os = os
 local my_table = awful.util.table or gears.table -- 4.{0,1} compatibility
@@ -243,7 +247,7 @@ function theme.at_screen_connect(s)
     s.mytasklist = awful.widget.tasklist(s, awful.widget.tasklist.filter.currenttags, awful.util.tasklist_buttons, { bg_normal = barcolor, bg_focus = barcolor })
 
     -- Create the wibox
-    s.mywibox = awful.wibar({ position = "top", screen = s, height = dpi(25), bg = barcolor })
+    s.mywibox = awful.wibar({ position = "top", screen = s, height = dpi(30), bg = barcolor })
 
     -- Add widgets to the wibox
     s.mywibox:setup {
@@ -263,13 +267,24 @@ function theme.at_screen_connect(s)
             layout = wibox.layout.fixed.horizontal,
             wibox.widget.systray(),
             first,
-            theme.mpd.widget,
+          --  theme.mpd.widget,
             --theme.mail.widget,
             --theme.weather.icon,
             --theme.weather.widget,
             --theme.fs.widget,
-            bat,
-            theme.volume.widget,
+           -- bat,
+           -- theme.volume.widget,
+	    volume_widget{
+            widget_type = 'arc',
+	    device = 'default'
+        },
+	    first, --added blank space
+	    first, -- added blank space
+	    batteryarc_widget({
+            show_current_level = true,
+            arc_thickness = 1,
+        }),
+	    cpu_widget(),
             mytextclock,
         },
     }
