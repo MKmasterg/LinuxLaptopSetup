@@ -14,6 +14,7 @@ local dpi   = require("beautiful.xresources").apply_dpi
 local batteryarc_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
 local volume_widget = require('awesome-wm-widgets.volume-widget.volume')
 local cpu_widget = require("awesome-wm-widgets.cpu-widget.cpu-widget")
+local brightness_widget = require("awesome-wm-widgets.brightness-widget.brightness")
 
 local os = os
 local my_table = awful.util.table or gears.table -- 4.{0,1} compatibility
@@ -284,6 +285,11 @@ function theme.at_screen_connect(s)
             show_current_level = true,
             arc_thickness = 1,
         }),
+	    brightness_widget{
+            type = 'icon_and_text',
+            program = 'xbacklight',
+            step = 2,        
+        },
 	    cpu_widget(),
             mytextclock,
         },
