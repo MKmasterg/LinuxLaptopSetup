@@ -52,7 +52,7 @@ The configs are not a big deal, everything is in the `rc.lua` (better put your s
 
 # Terminal shell
 Have you ever wondered why your terminal look and feel seems lame? then I think you should consider using [zsh](https://www.zsh.org/)!
-Your default terminal shell is probably bash, so we want to change this to zsh, because we want plugins and the customizations! \n
+Your default terminal shell is probably bash, so we want to change this to zsh, because we want plugins and the customizations! \
 **Installing & configuring zsh**
 Install the zsh itself by using `sudo dnf install zsh`(if you have problem with changing the default shell you could use **chsh**). there is this thing called [oh-my-zsh](https://ohmyz.sh/) that made our works much easier for configurations and customizations! 
 Use wget for downloading the framework: 
@@ -64,7 +64,7 @@ Now we want to add our plugins:
  - [Auto suggestion](https://github.com/zsh-users/zsh-autosuggestions): This plugin suggests your commands by using your histories: 
 `git clone https://github.com/zsh-users/zsh-autosuggestions` and put it into your home directory in : `~/.oh-my-zsh/custom/plugins` and at last add "zsh-autosuggestions" into your plugins array in `.zshrc` .
  - [Syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/) : If your command was available, then it will be highlighted: 
-`git clone https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md` and put it into your home directory in : `~/.oh-my-zsh/custom/plugins` and at last add "zsh-syntax-highlighting" into your plugins array in `.zshrc` . \n
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md` and put it into your home directory in : `~/.oh-my-zsh/custom/plugins` and at last add "zsh-syntax-highlighting" into your plugins array in `.zshrc` . \
 Now the pre-installed themes:
 I like "agnoster" you could chose [whatever](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) you want:
 Just edit the name of your theme in the .zshrc: 
