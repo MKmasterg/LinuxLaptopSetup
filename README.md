@@ -33,7 +33,7 @@ So I chose the [copy-cats themes](https://github.com/lcpz/awesome-copycats), the
 The configs are not a big deal, everything is in the `rc.lua` (better put your settings in your home directory at `.configs/`, if not exist you can usually find the templates at 
 
     /etc/xdg/
-    #or 
+    or 
     /usr/share 
    make a copy of them and put them in your home directory.)
 
@@ -52,7 +52,7 @@ The configs are not a big deal, everything is in the `rc.lua` (better put your s
 
 # Terminal shell
 Have you ever wondered why your terminal look and feel seems lame? then I think you should consider using [zsh](https://www.zsh.org/)!
-Your default terminal shell is probably bash, so we want to change this to zsh, because we want plugins and the customizations!
+Your default terminal shell is probably bash, so we want to change this to zsh, because we want plugins and the customizations! \n
 **Installing & configuring zsh**
 Install the zsh itself by using `sudo dnf install zsh`(if you have problem with changing the default shell you could use **chsh**). there is this thing called [oh-my-zsh](https://ohmyz.sh/) that made our works much easier for configurations and customizations! 
 Use wget for downloading the framework: 
