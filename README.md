@@ -53,7 +53,7 @@ The configs are not a big deal, everything is in the `rc.lua` (better put your s
 # Terminal shell
 Have you ever wondered why your terminal look and feel seems lame? then I think you should consider using [zsh](https://www.zsh.org/)!
 Your default terminal shell is probably bash, so we want to change this to zsh, because we want plugins and the customizations! \
-**Installing & configuring zsh**
+**Installing & configuring zsh**\
 Install the zsh itself by using `sudo dnf install zsh`(if you have problem with changing the default shell you could use **chsh**). there is this thing called [oh-my-zsh](https://ohmyz.sh/) that made our works much easier for configurations and customizations! 
 Use wget for downloading the framework: 
 `wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh`
