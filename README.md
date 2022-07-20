@@ -46,7 +46,7 @@ The configs are not a big deal, everything is in the `rc.lua` (better put your s
  - Install Rofi, for the dmenu (or run prompt to be specific) I used Rofi, make sure you install Rofi and also Its theme: `sudo svn checkout https://github.com/lr-tech/rofi-themes-collection/trunk/themes` put them in `~/.local/share/rofi/themes`
  - Clone the widget repo into your `.config/awesome` directory:\
  `sudo git clone https://github.com/streetturtle/awesome-wm-widgets.git`\
- you can adds more [widgets](https://github.com/streetturtle/awesome-wm-widgets) BTW.
+ you can add more [widgets](https://github.com/streetturtle/awesome-wm-widgets) BTW.
  - Last but not least install awesome fonts, for font based icons : `sudo dnf install fontawesome-fonts`\
  **Please note that awesome wm does not support wayland (as far as I know) so It needs Xorg, therefore if you can't run your WM on Xorg then it's probably beacuase of the dynamic mode for your graphic cards (this config is mostly on lenovo laptops)**
 
@@ -64,7 +64,7 @@ Now we want to add our plugins:
  - [Auto suggestion](https://github.com/zsh-users/zsh-autosuggestions): This plugin suggests your commands by using your histories: 
 `git clone https://github.com/zsh-users/zsh-autosuggestions` and put it into your home directory in : `~/.oh-my-zsh/custom/plugins` and at last add "zsh-autosuggestions" into your plugins array in `.zshrc` .
  - [Syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/) : If your command was available, then it will be highlighted: 
-`git clone https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md` and put it into your home directory in : `~/.oh-my-zsh/custom/plugins` and at last add "zsh-syntax-highlighting" into your plugins array in `.zshrc` .
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md` and put it into your home directory in : `~/.oh-my-zsh/custom/plugins` and at last add "zsh-syntax-highlighting" into your plugins array in `.zshrc` . \n
 Now the pre-installed themes:
 I like "agnoster" you could chose [whatever](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) you want:
 Just edit the name of your theme in the .zshrc: 
